@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Katik Persegi</title>
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Luas dan Keliling Persegi</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card">
+                <div class="content-header">
+                    <h2> Welcome to Katik</h2>
+                    <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling dari persegi</p>
+                </div>
+                <div class="content-body">
+                    <div class="card">
+                        <h3>Keliling Persegi</h3>
+                        <div class="caption">
+                            <img src="https://katik.azurewebsites.net/images/persegi.jpg">
+                            <div>
+                                <p>Rumus Keliling Persegi:</p>
+                                <p>K = 4xs</p>
+                                <p>dengan s adalah panjang sisi persegi.</p>
+                            </div>
+                        </div>
+                        <form id="calculate-perimeter">
+                            <label  for="perimeter-input">Hitung Keliling Persegi</label>
+                            <div class="container-input">
+                                <input type="number" id="perimeter-input" required/>
+                                <button type="submit">Hitung</button>
+                                <button type="reset" id="reset-perimeter-input">Reset</button>
+                            </div>
+                        </form>
+                        <div id="perimeter-result"></div>
+                    </div>
+                    <div class="card">
+                        <h3>Luas Persegi</h3>
+                        <div class="caption">
+                            <img src="https://katik.azurewebsites.net/images/persegi.jpg">
+                            <div>
+                                <p>Rumus Luas Persegi:</p>
+                                <p>L = sxs</p>
+                                <p>dengan s adalah panjang sisi persegi.</p>
+                            </div>
+                        </div>
+                        <form id="calculate-area">
+                            <label  for="area-input">Hitung Keliling Persegi</label>
+                            <div class="container-input">
+                                <input type="number" id="area-input" required/>
+                                <button type="submit">Hitung</button>
+                                <button type="reset" id="reset-area-input">Reset</button>
+                            </div>
+                        </form>
+                        <div id="area-result">
+                        </div>        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>  
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

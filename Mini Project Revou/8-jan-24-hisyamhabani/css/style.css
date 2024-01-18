@@ -1,0 +1,32 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    text-align: center;
+}
+header h2 {
+    color: white;
+    background-color: blue;
+}
+div {
+    text-align: center;
+}
+.inputSection {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: aqua;
+}
+button:disabled {
+    background-color: red;
+}
+button:active {
+    background-color: aqua;
+    transform: translateY(5px);
+}
